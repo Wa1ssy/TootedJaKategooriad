@@ -26,5 +26,26 @@ namespace TootedJaKategooriad
             this._productsContext?.Dispose();
             this._productsContext = null;
         }
+
+        private void dataGridViewCategories_SelectionChanged(object sender, EventArgs e)
+        {
+            if (this._productsContext != null)
+            {
+                var category = (Category)this.dataGridViewCategories.CurrentRow.DataBoundItem;
+
+                if (category != null)
+                {
+                    this._productsContext.Entry(category).Collection(e => e.Products).Load();
+                    this.dataGridViewProducts.DataSource = category.Products;
+                }
+            }
+        }
+
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            this._productsContext!.SaveChanges();
+            this.dataGridViewCategories.Refresh();
+            this.dataGridViewProducts.Refresh();
+        }
     }
 }
