@@ -48,15 +48,15 @@ namespace TootedJaKategooriad
                 new Product { ProductID = 22,CategoryID = 3, ProductName = "Jamon"},
                 new Product { ProductID = 23,CategoryID = 3, ProductName = "Salami"},
                 new Product { ProductID = 24,CategoryID = 3, ProductName = "Ham"},
-                new Product { ProductID = 25,CategoryID = 3, ProductName = "Chocolate milk"},
-                new Product { ProductID = 26,CategoryID = 3, ProductName = "Strawberry milk"},
-                new Product { ProductID = 27,CategoryID = 3, ProductName = "Banana milk"},
-                new Product { ProductID = 28,CategoryID = 3, ProductName = "Milk"},
-                new Product { ProductID = 29,CategoryID = 3, ProductName = "Blue cheese"},
-                new Product { ProductID = 30,CategoryID = 3, ProductName = "Cheese strings"},
-                new Product { ProductID = 31,CategoryID = 3, ProductName = "Quark snack"},
-                new Product { ProductID = 32,CategoryID = 3, ProductName = "Heavy cream"},
-                new Product { ProductID = 33,CategoryID = 3, ProductName = "Almond milk"}
+                new Product { ProductID = 25,CategoryID = 4, ProductName = "Chocolate milk"},
+                new Product { ProductID = 26,CategoryID = 4, ProductName = "Strawberry milk"},
+                new Product { ProductID = 27,CategoryID = 4, ProductName = "Banana milk"},
+                new Product { ProductID = 28,CategoryID = 4, ProductName = "Milk"},
+                new Product { ProductID = 29,CategoryID = 4, ProductName = "Blue cheese"},
+                new Product { ProductID = 30,CategoryID = 4, ProductName = "Cheese strings"},
+                new Product { ProductID = 31,CategoryID = 4, ProductName = "Quark snack"},
+                new Product { ProductID = 32,CategoryID = 4, ProductName = "Heavy cream"},
+                new Product { ProductID = 33,CategoryID = 4, ProductName = "Almond milk"}
                 );
         }
     }

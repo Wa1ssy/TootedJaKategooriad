@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TootedJaKategooriad")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5094b41d2da825c53fe9ff40eaf35823efa15d1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+784bdae146f54749e3c56821486c8cd9433bf56d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TootedJaKategooriad")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TootedJaKategooriad")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
